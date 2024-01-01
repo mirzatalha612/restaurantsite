@@ -16,3 +16,6 @@ body{
     height: 150px;
     margin: 10px 15px 10px 0px;
 }
+a>div{
+    float:left;
+}
