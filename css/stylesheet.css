@@ -4,11 +4,37 @@ body{
     color: #fff;
     font-size: 16px;
 }
-#header-nav{
+#header-nav{/* header styling*/
     background-color: #f6b319;
     border-radius: 0;
     border: 0;
     height: 180px;
+}
+.navbar-brand{/* Brand Stying*/
+    padding: 25px;
+}
+.navbar-brand h1{/*brand name*/
+    font-family: 'lora', serif;
+    font-weight: bold;
+    text-transform:uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow:1px,1px,1px #222;
+    line-height: .75;
+    font-size: 1.5em;
+    color:#557c3e;
+}
+.navbar-brand a:hover, .navbar-brand a{
+    text-decoration: none;
+}
+.navbar-brand p{/*kosher cert*/
+    margin: 15px;
+    color: #000;
+    font-size: .7em;
+    text-transform: uppercase;
+}
+.navbar-brand p span{
+    vertical-align: middle;
 }
 #logo-img{
     background: url('../images/restaurant-logo.png');
