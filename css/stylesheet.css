@@ -45,3 +45,18 @@ body{
 a>div{
     float:left;
 }
+@media (min-width:992px) and (max-width:1200px) {
+    .d-lg-block{
+        display: block !important;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .d-md-block{
+        display: block !important;
+    }
+}
+@media (min-width:576px) and (max-width:767px) {
+    .d-sm-none{
+        display: none !important;
+    }
+}
