@@ -49,13 +49,16 @@ a>div{
     .d-lg-block{
         display: block !important;
     }
+    .mt-auto{
+        margin-top: auto !important;
+    }
 }
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:577px) and (max-width:991px) {
     .d-md-block{
         display: block !important;
     }
 }
-@media (min-width:576px) and (max-width:767px) {
+@media (max-width:576px){
     .d-sm-none{
         display: none !important;
     }
