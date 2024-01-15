@@ -49,9 +49,6 @@ a>div{
     .d-lg-block{
         display: block !important;
     }
-    .mt-auto{
-        margin-top: auto !important;
-    }
 }
 @media (min-width:577px) and (max-width:991px) {
     .d-md-block{
