@@ -51,9 +51,11 @@ a>div{
 #nav-list{
     margin-top: 10px;
 }
-a{
-    color: #61221f;
-    text-align:start;
+#nav-list a{
+   color: #61221f;
+}
+.nav-item{
+    text-align: center;
 }
 @media (min-width:992px) and (max-width:1200px) {
     .d-lg-block{
