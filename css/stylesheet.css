@@ -51,24 +51,78 @@ a>div{
 #nav-list{
     margin-top: 10px;
 }
-#nav-list a{
+#nav-list .nav-item {
    color: #61221f;
 }
 .nav-item{
     text-align: center;
 }
-@media (min-width:992px) and (max-width:1200px) {
-    .d-lg-block{
-        display: block !important;
-    }
+#nav-list a{
+    text-decoration: none;
 }
-@media (min-width:577px) and (max-width:991px) {
+#nav-list a span{
+    font-size: 1.8em;
+    color: #61221f;
+}
+#phone{
+    margin-top: 5px;
+}
+#phone a{
+    text-align: right;
+    padding: bottom 0;
+}
+#phone div{
+    color:#557c3e;
+    text-align: right;
+    padding-right: 15px;
+}
+#header-nav button.navbar-toggler{
+    border: 3px solid #61221f;
+    clear: both;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(50%,0%,0%)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+@media (min-width:1200px) {
+    
+}
+@media (min-width:992px) and (max-width:1200px) {
     .d-md-block{
         display: block !important;
     }
+    #logo-img{
+        background: url(/images/restaurant-logo_medium.png) no-repeat !important ;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
 }
-@media (max-width:576px){
-    .d-sm-none{
+@media (min-width:768px) and (max-width:991px) {
+    .d-sm-block{
+        display: block !important;
+    }
+}
+@media (max-width:767px){
+    /* Header */
+    .d-xs-none{
         display: none !important;
+    }
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    .navbar-brand p{
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    .navbar-brandp img{
+        height: 20px;
+    }
+    .collapse{
+        font: size 1.2em;;
     }
 }
