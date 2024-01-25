@@ -11,7 +11,7 @@ body{
     background-color: #f6b319;
     border-radius: 0;
     border: 0;
-    height: 180px;
+    /* height: 180px; */
 }
 .navbar-brand{/* Brand Stying*/
     padding: 25px;
@@ -106,7 +106,7 @@ a>div{
     /* Header */
     .d-xs-none{
         display: none !important;
-    }
+    }br
     .navbar-brand{
         padding-top: 10px;
         height: 80px;
@@ -119,10 +119,10 @@ a>div{
         font-size: .6em;
         margin-top: 12px;
     }
-    .navbar-brandp img{
+    .navbar-brand p img{
         height: 20px;
     }
     .collapse{
-        font: size 1.2em;;
+        font: size 1.2em;
     }
 }
