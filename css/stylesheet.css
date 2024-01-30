@@ -93,11 +93,20 @@ a>div{
 .collapse{
     padding: 10px;
 }
+/* Header-end */
+/* Homapage */
 .container .jumbotron{
     box-shadow: 0 0 50px #3f0c1f;
     border: 2px solid #3f0c1f;
+    width: 100%;
 }
-/* Header-end */
+#menu-tiles,#specials-tiles,#map-tiles{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    border: 2px solid #3f0c1f;
+}
+/* Homepage-end */
 @media (min-width:1200px) {
     .d-lg-block{
         display: block !important;
