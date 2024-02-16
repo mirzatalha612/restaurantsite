@@ -131,6 +131,34 @@ a>div{
     opacity: .8;
 }
 /* Homepage-end */
+/* menu-categories page */
+.category-title{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+    border: 2px solid #3f0c1f;
+    overflow:hidden;
+}
+.category-title span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:#000;
+    font-size: 1.2em;
+    color: #fff;
+    opacity: .8;
+    width: 100%;
+}
+.category-title:hover{
+    box-shadow: 0px 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div{
+    margin-bottom: 50px;
+}
+/* menu-categories page-end */
 /* footer */
 .panel-footer{
     background-color: #222;
@@ -268,5 +296,9 @@ a>div{
     .navbar-brand h1{
         font-size: 6vw;
         margin-top: -5px;
+    }
+    .row div{
+        display: flex;
+        justify-content: center;
     }
 }
